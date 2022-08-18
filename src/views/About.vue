@@ -1,7 +1,7 @@
 <template>
   <h2>{{ FBstatus }}</h2>
   <button v-if="!FBstatus" @click="loginWithFacebook">
-    LOGIN WITH FACEBOOK
+    LOGIN WITH FACeEBOOK
   </button>
   <button v-else @click="logOutFromFacebook">LOGOUT FROM FACEBOOK</button>
 </template>
